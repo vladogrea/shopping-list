@@ -60,7 +60,7 @@ class TaskController extends Controller
         return TaskResource::make($task);
     }
 
-    /**
+    /*
      * Remove the specified resource from storage.
      */
     public function destroy(Task $task)
